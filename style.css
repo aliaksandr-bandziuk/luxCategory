@@ -7,12 +7,8 @@ body {
    display: grid;
    justify-content: center;
 
-   /* width: 95%; */
-   /* min-height: 95%; */
-
    grid-template-columns: 12% 1fr 12%;
    grid-template-rows: 3.5% 0.5fr 3.5fr 7%;
-
    gap: 5px;
    margin: 0 auto;
 }
@@ -25,22 +21,16 @@ body {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   list-style: none;
-
-   /* padding: 0; */
-   
+   list-style: none;   
    margin-top: 10px;
    margin-bottom: 0;
-
    font-family: 'Roboto', sans-serif;
    font-style: normal;
    font-weight: 300;
    font-size: 18px;
    line-height: 22px;
    text-transform: uppercase;
-
    color: #000000;
-
    box-shadow: 0 0.5px grey;
 }
 
@@ -65,14 +55,13 @@ a {
    font-size: 18px;
    line-height: 20px;
    text-transform: uppercase;
-
    color: #000000;
  
 }
 
 .banner {
    grid-column: 1 / 4;
-   /* margin: 0; */
+   margin: 0 auto;
 }
 
 .banner-img {
@@ -194,7 +183,7 @@ h3 {
 
    color: #ffffff;
    font-family: 'Roboto', sans-serif;
-   
+   margin: 0 auto;
 }
 
 .logo-footer {
